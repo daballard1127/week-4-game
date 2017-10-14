@@ -1,0 +1,63 @@
+body
+{
+	background-color: #fcf8e3;
+}
+
+h1{
+	text-align: center;
+    background-color: brown;
+    border: 5px black solid;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+section {
+    border: blue 10px solid;
+    margin: 10px
+    color: #3c763d;
+    background-color: #f2dede;
+}
+
+.RandomNumberBox {
+    border: black 5px solid;
+    background-color: darkgreen;
+    padding: 50px;
+    margin: 10px;
+    height: 10px;
+    width: 10px;
+    float: left;
+
+}
+.WinLossBox{
+    border: black 5px solid;
+    background-color: blue;
+    padding: 40px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin: 10px;
+    margin-left: 2px;
+    height: 1px;
+    width: 10px;
+    float: left;
+    text-align: center;
+}
+.TotalScore {
+    border: black 2px;
+    background-color: aqua;
+    
+    height: 40;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p.text-center {
+    text-indent: -40px;
+}
+
+.Scorebox {
+    border: #ff005f 1px;
+    background-color: aqua;
+    height: 50px;
+    width: 200px;
+}
+
