@@ -35,11 +35,13 @@ $(".crystals").on("click", function(e) {
     if
     (totalScore === startRandomnumber){
     	++winCount;
+        $("#wins").html(winCount);
     	console.log("WIN",winCount);
     }
     	else{
     		if(totalScore > startRandomnumber)
     			++loseCount;
+            $("#losses").html(loseCount);
     		   console.log("LOSE", loseCount);
     	}
     });
