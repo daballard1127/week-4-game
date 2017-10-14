@@ -4,56 +4,64 @@
 	<meta charset="utf-8">
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Week-4-Assignment</title>
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- 
- <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Week-4-Assignment</title>
+
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	 
+	 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-<body>
+	<body>
 
-<div class="container">
-	<div class="row">
-		
-		<h1>CrystalsCollector!</h1>
-	</div>
-<!--Instructions for game-->
-
-	<section>
-
-		<p>You will be given a random number at the start of the game</p>
-
-		<p>There are four crystals below. By clcking on a crystal you will add a specific amount of points to your total score</p>
-
-		<p>You win the game by matching your total score tothe random number,you lose the game if your total score goes above the random number</p>
-
-		<p>The value of each crystal is hidden from you until you click on it</p>
-
-		<p>Each time when the game starts, the game will change the values of each crystal.</p>
-
-	<!-- Blank Box for Random NUmber with green background-->
+		<div class="container">
+			 <div class="row">
+			
+				<h1>CrystalsCollector!</h1>
+			 </div>
 
 
-	</section>
+				<section>
 
-</div>
-<div class="container"> 
-	<!-- <div class="row"> -->
-		<!-- <div class="col-xs-4 col-xs-4"> -->
+					<p>You will be given a random number at the start of the game</p>
+
+					<p>There are four crystals below. By clcking on a crystal you will add a specific amount of points to your total score</p>
+
+					<p>You win the game by matching your total score tothe random number,you lose the game if your total score goes above the random number</p>
+
+					<p>The value of each crystal is hidden from you until you click on it</p>
+
+					<p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+			    </section>
+
+		</div>
+
+	<div class="container"> 
+	
 			
 			<div class="RandomNumberBox"></div>
 			<div class="WinLossBox">
-			<p class="text-center">Win:</p>
-			<p class="text-center">Loss:</p>
+				<p class="text-center">Win:</p>
+				<p class="text-center">Loss:</p>
 			</div>
-	<!-- </div> -->
-<!-- </div> -->
-</div> 
+	
+	</div> 
+
+<div class="imagecontainer">
+	
+		<img src="https://openclipart.org/image/50px/svg_to_png/202338/1411643310.png&disposition=attachment" alt="Gem" title="Gem by  Magnesus ( https://openclipart.org/user-detail/Magnesus )" class="crystals" id="0"/>
+		<img src="https://openclipart.org/image/50px/svg_to_png/173472/karthikeyan-ruby-flatmix.png&disposition=attachment" alt="Ruby, no shading" title="Ruby, no shading by  qubodup ( https://openclipart.org/user-detail/qubodup )" class="crystals" id="1"/>
+		<img src="https://openclipart.org/image/50px/svg_to_png/221374/1435294641.png&disposition=attachment" alt="Diamond" title="Diamond by  GDJ ( https://openclipart.org/user-detail/GDJ )" class="crystals" id="2"/>
+		<img src="https://openclipart.org/image/50px/svg_to_png/229120/topas.png&disposition=attachment" alt="Topas" title="Topas by  mese ( https://openclipart.org/user-detail/mese )" class="crystals" id="3"/>
+
+</div>
+
 <div class="TotalScore">Your total score is:</div>
 <div class="Scorebox"></div>
 
 </body>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src= "./assets/javascript/game.js"></script>
 </html>
